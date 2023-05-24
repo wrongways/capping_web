@@ -1,9 +1,8 @@
 <script lang="ts">
-    import {scale, fade} from 'svelte/transition';
     import type {PageData} from './$types';
     import type { RAPLStats } from '$lib/types';
-    import {TestType, CappingDirection, CappingOperation, CappingOrder} from '$lib/types';
-    import {fetchBMCStats, fetchRAPLStats, fetchDescendingLoadTestDescs, fetchDescendingThreadsTestDescs} from '$lib/utils';
+    import { TestType, CappingDirection, CappingOperation } from '$lib/types';
+    import { fetchBMCStats, fetchRAPLStats, fetchDescendingLoadTestDescs, fetchDescendingThreadsTestDescs } from '$lib/utils';
     import Timeline from '$lib/components/Timeline.svelte';
 
 
