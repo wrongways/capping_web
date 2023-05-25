@@ -25,11 +25,6 @@
 
 
 <style>
-    rect {
-        fill: hsla(30, 10%, 83%, 0.6);
-        stroke: black;
-        stroke-width: 0.5px;
-    }
 
     line {
         stroke-width: 2px;
