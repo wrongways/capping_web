@@ -1,4 +1,5 @@
 <script lang="ts">
+    import {fade, scale} from 'svelte/transition';
     import type {PageData} from './$types';
     import type { RAPLStats } from '$lib/types';
     import { TestType, CappingDirection, CappingOperation } from '$lib/types';
